@@ -4,6 +4,7 @@
 class LinkedList(object):
   def __init__(self, head=None):
     self.head = head
+    self.next_node
     # write your __init__ method here that should store a 'head' value which the first Node in the LinkedList and a 'length' value which is the total number of Nodes in the LinkedList
 
   def size(self):
@@ -37,5 +38,5 @@ class LinkedList(object):
         self.next_node = new_next
 
 
-test = LinkedList([1])
+test = LinkedList([2,6,7,8]).size()
 print(test)
