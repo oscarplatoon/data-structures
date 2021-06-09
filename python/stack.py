@@ -1,5 +1,7 @@
 class Stack:
   # write your __init__ method here that should store a 'total' value which is the total number of elements in the Stack and a 'stack' value which is an array of stored values in the Stack
+  def __init__(self) #-> None:
+      self. 
 
   def push(self):
     # write your code to add data following LIFO and return the Stack
