@@ -13,30 +13,12 @@ class LinkedList(object):
     count = 0
     while current != None:
         count += 1
-        current = Node.next_node()
-    return count
-
-  def add(self, data):
-    # write your code to ADD an element to the Linked List
-    
-    # while self.length >= 0:
-
-    #   self.data = self.current
+        current = self.next_node
+    print(count)
+# write your code to ADD an element to the Linked List
+ # write your code to REMOVE an element from the Linked List
 
 
-  def insert(self, data):
-    new_node = Node(data)
-    new_node.set_next(self.head)
-    self.head = new_node
-      
-
-  # def remove(self, data):
-  #   # write your code to REMOVE an element from the Linked List
-  #   pass
-
-  # def get(self, element_to_get):
-  #   # write you code to GET and return an element from the Linked List
-  #   pass
 
 # ----- Node ------
   class Node:
